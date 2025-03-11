@@ -1,0 +1,17 @@
+// Disclaimer: This output contains AI generated content, user is advised to review it before consumption.
+// *Start of AI Generated Content*```
+Feature: Login Functionality Test
+
+  Scenario: Verify login with valid credentials
+    Given User is on the login page
+    When User enters valid username and password
+    And User clicks on the login button
+    Then User should be redirected to the home page
+    And Page title should contain "Swag Labs"
+
+  Scenario: Verify login with invalid credentials
+    Given User is on the login page
+    When User enters invalid username and password
+    And User clicks on the login button
+    Then Error message should start with "Epic sadface"
+// *End of AI Generated Content*
