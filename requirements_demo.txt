@@ -1,0 +1,11 @@
+Test URL: https://www.saucedemo.com/
+1. Valid Login Credentials:
+Username: standard_user
+Password: secret_sauce
+2. Invalid Login Credentials:
+Username: invalid_user
+Password: wrong_password
+
+Expected Results:
+For valid credentials: The user should be redirected to the home page, and the page title should contain "Swag Labs".
+For invalid credentials: An error message should be starting with the text "Epic sadface".
