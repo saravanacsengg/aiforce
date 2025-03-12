@@ -1,0 +1,15 @@
+Feature: Login to Swag Labs
+
+  Scenario: Login with valid credentials
+    Given I am on the Swag Labs login page ... passed in 27.858s
+    When I enter valid username and password ... passed in 1.221s
+    And I click on the login button ... passed in 0.161s
+    Then I should be redirected to the home page ... passed in 0.010s
+    And the page title should contain "Swag Labs" ... passed in 0.009s
+
+  Scenario: Login with invalid credentials
+    Given I am on the Swag Labs login page ... passed in 27.329s
+    When I enter invalid username and password ... passed in 1.575s
+    And I click on the login button ... passed in 0.556s
+    Then an error message should be displayed with the text "Epic sadface" ... passed in 14.044s
+
